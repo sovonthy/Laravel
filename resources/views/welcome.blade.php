@@ -90,7 +90,7 @@
                     <a href="{{route('join')}}">Join Us</a>
                     <a href="{{route('news')}}">News</a>
                     <a href="{{route('contact')}}">Contact Us</a>
-                    <a href="{{route('student')}}">Student</a>
+                    <a href="student">Student</a>
                     <a href="{{route('subject')}}">Subject</a>
                 </div>
             </div>

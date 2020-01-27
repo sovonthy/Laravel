@@ -6,13 +6,21 @@
              <th>Score</th>
          </tr>
      </thead>
-     @foreach($subjects as $subject)
+     {{-- @foreach($subjects as $subject)
      <tbody>
          <tr>
              <td>{{$subject[0]}}</td>
              <td>{{$subject[1]}}</td>
          </tr>
      </tbody>
-  
+   --}}
+   @foreach($subjects as $subject)
+   <tbody>
+       <tr>
+           <td>{{$subject['name']}}</td>
+           <td>{{$subject['score']}}</td>
+       </tr>
+   </tbody>
+
 @endforeach
 </table>

@@ -8,7 +8,8 @@ Route::get('join','PagesController@join')->name('join');
 Route::get('contact','PagesController@contact')->name('contact');
 Route::get('news','PagesController@news')->name('news');
 Route::get('showCustomer','PagesController@showCustomer')->name('showCustomer');
-Route::get('student','StudentsController@showStudent')->name('student');
+Route::get('student','StudentsController@showStudent');
+Route::get('student/{name}','StudentsController@searchStudent');
 Route::get('subject','SubjectsController@showSubject')->name('subject');
 
 Route::get('/teacher/{index}', function($index) {
